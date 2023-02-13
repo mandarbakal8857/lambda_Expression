@@ -16,6 +16,13 @@ public class Maths
 			  
 			  ImathsFunc imathsFunc4=(a,b)->(a*b);
 			  System.out.println("Substraction:"+imathsFunc4.performedOperation(12, 3));
+			  
+			  ImathsFunc.printResult(3, 4, "Addition", imathsFunc1);
+			  
+			  ImathsFunc.printResult(3, 4, "Multiplication", imathsFunc2);
+			  
+			  ImathsFunc.printResult(12, 4, "Division", imathsFunc3);
+			  
 			 
 		
 		
